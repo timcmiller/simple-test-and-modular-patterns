@@ -8,6 +8,8 @@ To complete this assignment:
   * create a pull request back to the original repo
   * submit a link to the PR in canvas
 
+Assignment Description
+----------------------------------
 This assignment will have you create a simple Javascript object that will be exported using the Node modular pattern we went over in class.
 
 Your object should have a function named 'greet' that takes a name as a parameter and returns the string 'hello ' + name 
