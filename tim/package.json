@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/timcmiller/simple-test-and-modular-patterns/issues"
   },
-  "homepage": "https://github.com/timcmiller/simple-test-and-modular-patterns#readme"
+  "homepage": "https://github.com/timcmiller/simple-test-and-modular-patterns#readme",
+  "devDependencies": {
+    "chai": "3.4.0",
+    "gulp": "3.9.0",
+    "mocha": "2.3.3"
+  }
 }
