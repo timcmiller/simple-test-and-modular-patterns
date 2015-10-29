@@ -1,0 +1,29 @@
+{
+  "name": "greet",
+  "version": "0.1.0",
+  "description": "A super awesome app used greet people!",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timcmiller/simple-test-and-modular-patterns.git"
+  },
+  "keywords": [
+    "greet"
+  ],
+  "author": "Tim Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timcmiller/simple-test-and-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/timcmiller/simple-test-and-modular-patterns#readme",
+  "devDependencies": {
+    "chai": "3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "2.3.3"
+  }
+}
