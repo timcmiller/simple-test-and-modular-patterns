@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 var expect = require('chai').expect;
 var greet = require(__dirname + '/../greet');
 
