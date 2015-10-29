@@ -7,4 +7,3 @@ exports.greeting = function(name) {
 
 console.log(exports.greeting("tim"));
 
-
