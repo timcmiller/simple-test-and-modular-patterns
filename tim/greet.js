@@ -1,8 +1,8 @@
-'use strict';
+
 
 exports.greeting = function(name) {
   console.log(arguments);
-  name = name || process.argv[2] || arguments[2];
+  name = process.argv[2] || name;
   return 'word ' + name + '!';
 };
 

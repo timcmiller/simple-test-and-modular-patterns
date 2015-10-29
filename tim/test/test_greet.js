@@ -1,4 +1,4 @@
-'use strict';
+
 
 var expect = require('chai').expect;
 var greet = require(__dirname + '/../greet');
@@ -8,7 +8,20 @@ describe('the greet function', function() {
     expect(greet.greeting('tim')).to.eql('word tim!');
   });
 
-  it('should process the arguments', function() {
-    expect(greet.greeting('tim', 'bob', 'sally')).to.eql('word sally!');
+  describe('calling this funciton through node', function() {
+
+    before(function() {
+      this.backup = process.argv;
+      process.argv = ['node', 'myfile', 'test name'];
+
+    });
+
+    after(function() {
+      process.argv = this.backup;
+    });
+
+    it('should pull from process.argv', function() {
+      expect(greet.greeting()).eql('word test name!');
+    });
   });
 });
